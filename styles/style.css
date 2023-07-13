@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
+
+.page {
+  max-width: 1441px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 41px 120px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  color: #192252;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  list-style-type: none;
+}
+
+.menu-link {
+  color: #192252;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.common-button-style {
+  padding: 14px 16px;
+  border-radius: 4px;
+  background: #0E1734;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+
