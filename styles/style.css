@@ -51,4 +51,51 @@
   cursor: pointer;
 }
 
+.hover-effect:hover {
+  opacity: 0.6;
+}
+
+.about {
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.about__content-title {
+  margin-top: 135px;
+  margin-bottom: 24px;
+  color: #192252;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5; /* 72px */
+  letter-spacing: -0.48px;
+}
+
+.about__content-text {
+  width: 485px;
+  margin-bottom: 59px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5; /* 27px */
+}
+
+.about__photo {
+  height: 669px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.about__photo-part {
+  width: 180px;
+  height: 588px;
+  border-radius: 4px;
+}
+
+.about__photo-part_moved {
+  align-self: end;
+}
+
 
