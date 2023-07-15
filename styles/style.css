@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');*/
 
 .page {
   max-width: 1441px;
@@ -41,7 +41,6 @@
 }
 
 .common-button-style {
-  padding: 14px 16px;
   border-radius: 4px;
   background: #0E1734;
   color: #FFF;
@@ -49,6 +48,10 @@
   font-weight: 500;
   line-height: 1.2;
   cursor: pointer;
+}
+
+.header__button-padding {
+  padding: 14px 16px;
 }
 
 .hover-effect:hover {
@@ -74,7 +77,7 @@
 }
 
 .about__content-text {
-  width: 485px;
+  max-width: 485px;
   margin-bottom: 59px;
   font-size: 18px;
   font-weight: 400;
