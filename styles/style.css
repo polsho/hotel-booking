@@ -259,6 +259,40 @@
   height: 20px;
 }
 
+.reviews {
+  padding: 80px 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews__current-review {
+  margin-top: 62px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-rows: 164px min-content min-content;
+  justify-items: center;
+}
+
+.reviews__current-review__author-photo {
+  max-width: 120px;
+}
+
+.reviews__current-review__text {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  text-align: center;
+}
+
+.reviews__current-review__author {
+  color: #192252;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5; /* 30px */
+}
+
 
 
 
